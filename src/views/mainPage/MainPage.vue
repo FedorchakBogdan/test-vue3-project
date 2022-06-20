@@ -24,7 +24,6 @@ export default defineComponent({
     onMounted(async (): Promise<void> => {
       await store.dispatch('movies/getMovies')
     })
-    console.log('test')
     return {
       movies
     }

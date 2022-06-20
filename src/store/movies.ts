@@ -3,7 +3,7 @@ import axios from 'axios'
 import IMovie from '@/interfaces/movies/movie'
 import AxiosResponse from '@/interfaces/axios-respones/axiosResponse'
 import IMovieState from '@/interfaces/movies/state'
-import RootState from '@/interfaces/rootSate/index'
+import RootState from '@/interfaces/root-sate/index'
 
 type MoviesResponse = {
   results: Array<IMovie>;
